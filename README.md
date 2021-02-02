@@ -2,6 +2,12 @@
 
 The goal of this repository is to capture the distribution of Steam banners with a StyleGAN2-ADA model (PyTorch).
 
+![Target A][target-A]![Projection A][projection-A]
+![Target B][target-B]![Projection B][projection-B]
+<sub>
+Progression videos of the projection of Steam banners ([*Dog Trainer*][store-link-A] and [*My UnReal pet*][store-link-B]) with a network pre-trained by Nvidia on the `LSUN DOG` dataset.
+</sub>
+
 ## Data
 
 The [`Steam-OneFace`][steam-oneface] dataset,
@@ -28,6 +34,14 @@ obtained with the `retinaface` face detection module:
 -   Application to Steam banners using the [TensorFlow implementation][stylegan2-ada-applied-to-steam-banners].
 
 <!-- Definitions -->
+
+[target-A]: <https://github.com/woctezuma/steam-stylegan2-ada-pytorch/wiki/img/1113080_target.jpg>
+[projection-A]: <https://github.com/woctezuma/steam-stylegan2-ada-pytorch/wiki/img/1113080_crop.gif>
+[store-link-A]: <https://store.steampowered.com/app/1113080/>
+
+[target-B]: <https://github.com/woctezuma/steam-stylegan2-ada-pytorch/wiki/img/1315040_target.jpg>
+[projection-B]: <https://github.com/woctezuma/steam-stylegan2-ada-pytorch/wiki/img/1315040_crop.gif>
+[store-link-B]: <https://store.steampowered.com/app/1315040/>
 
 [steam-oneface]: <https://github.com/woctezuma/steam-filtered-image-data/blob/main/README.md#steam-oneface-dataset>
 
