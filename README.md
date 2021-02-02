@@ -43,7 +43,7 @@ obtained with the `retinaface` face detection module:
 [projection-B]: <https://github.com/woctezuma/steam-stylegan2-ada-pytorch/wiki/img/1315040_crop.gif>
 [store-link-B]: <https://store.steampowered.com/app/1315040/>
 
-[steam-oneface]: <https://github.com/woctezuma/steam-filtered-image-data/blob/main/README.md#steam-oneface-dataset>
+[steam-oneface]: <https://github.com/woctezuma/steam-filtered-image-data#steam-oneface-dataset>
 
 [colab-notebook-training]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada-pytorch/blob/main/training.ipynb>
 [colab-notebook-sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada-pytorch/blob/main/image_sampling.ipynb>
